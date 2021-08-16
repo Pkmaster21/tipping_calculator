@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
 const Total = ({ totalAmount }) => {
     return (
         <View>
-            <Text style={styles.textTitle}>Total</Text>
+            <Text style={styles.textTitle}>Total Cost</Text>
             <Text style={styles.textOutput}>{totalAmount}</Text>
         </View>
     );
